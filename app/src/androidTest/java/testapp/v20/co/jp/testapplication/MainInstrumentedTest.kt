@@ -28,4 +28,5 @@ class MainInstrumentedTest {
         message = mActivityTestRule.activity.findViewById(R.id.hello_world)
         Assert.assertEquals("Hello World!", message.text)
     }
+    
 }
